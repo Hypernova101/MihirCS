@@ -3,7 +3,7 @@ function startGame() {
       button.style.display = 'none';
     });
 
-    document.body.style.backgroundImage = 'url("/MihirCSSE/images/sprite/TANKLOADINGSLIDE.gif")';
+    document.body.style.backgroundImage = 'url("/MihirCS/images/sprite/TANKLOADINGSLIDE.gif")';
     document.getElementById("gameContainer").style.display = 'block';
 
     setTimeout(function() {
@@ -41,7 +41,7 @@ slider.addEventListener('input', function() {
   var value = slider.value;
   if (value == 1) {
     console.log("1")
-    location.replace("/MihirCSSE//2024/02/04/tanktestdrawing.html")
+    location.replace("/MihirCS//2024/02/04/tanktestdrawing.html")
   }
 
   else if (value == 2) {
@@ -56,10 +56,10 @@ document.addEventListener ("keydown", keyDownHandler, false);
 document.addEventListener ("keyup", keyUpHandler, false);
 
 let tank1 = new Image();
-tank1.src = "/MihirCSSE/images/sprite/tank1.png";
+tank1.src = "/MihirCS/images/sprite/tank1.png";
 
 let tank2 = new Image () ;
-tank2.src = "/MihirCSSE/images/sprite/tank0.png";
+tank2.src = "/MihirCS/images/sprite/tank0.png";
 
 let upPressed = false;
 let downPressed = false;
@@ -1286,7 +1286,7 @@ function endGame() {
 
     document.getElementById("gameContainer").style.opacity = 0;
     document.documentElement.style.background = '#97ae89';
-    document.body.style.backgroundImage = 'url("/MihirCSSE/images/sprite/TANKLOADINGBLANK.png")';
+    document.body.style.backgroundImage = 'url("/MihirCS/images/sprite/TANKLOADINGBLANK.png")';
 
     gameEnded = true;
 
